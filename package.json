@@ -11,6 +11,12 @@
   "dependencies": {
     "espower-source": "^0.10.0"
   },
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "index.js",
+    "package.json"
+  ],
   "homepage": "https://github.com/twada/fly-espower",
   "keywords": [
     "power-assert",
