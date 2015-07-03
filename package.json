@@ -1,0 +1,33 @@
+{
+  "name": "fly-espower",
+  "description": "Fly plugin for power-assert",
+  "version": "0.0.1",
+  "author": {
+    "name": "Takuto Wada",
+    "email": "takuto.wada@gmail.com",
+    "url": "https://github.com/twada"
+  },
+  "bugs": "https://github.com/twada/fly-espower/issues",
+  "dependencies": {
+    "espower-source": "^0.10.0"
+  },
+  "homepage": "https://github.com/twada/fly-espower",
+  "keywords": [
+    "power-assert",
+    "assert",
+    "assertion",
+    "test",
+    "testing",
+    "fly",
+    "fly-plugin"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twada/fly-espower.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
