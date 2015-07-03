@@ -2,23 +2,19 @@
 
 > [Fly][fly] plugin for [power-assert](https://github.com/power-assert-js/power-assert)
 
-## Usage
-
-To learn about what options are available, check out the [espower documentation](https://github.com/power-assert-js/espower#options)
-
-### Install
+## Install
 
 ```
 npm install --save-dev fly-espower
 ```
 
-### Example
+## Example
 
 ```javascript
 exports.espower = function* () {
   yield this
     .source("test/**/*_test.js")
-    .espower()
+    .espower({/* options */})
     .target("espowered/")
 }
 exports.test = function* () {
@@ -26,11 +22,11 @@ exports.test = function* () {
     .source("espowered/**/*_test.js")
     .mocha({ reporter: "spec" })
 }
-
-
 ```
 
-# License
+To learn about what options are available, check out the [espower documentation](https://github.com/power-assert-js/espower#options)
+
+## License
 
 Licensed under the [MIT](http://twada.mit-license.org/) license.
 
