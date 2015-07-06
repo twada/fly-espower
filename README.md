@@ -1,14 +1,22 @@
-# fly-espower
+<div align="center">
+  <a href="http://github.com/flyjs/fly">
+    <img width=200px  src="https://cloud.githubusercontent.com/assets/8317250/8430194/35c6043a-1f6a-11e5-8cbd-af6cc86baa84.png">
+  </a>
+</div>
 
-> [Fly][fly] plugin for [power-assert](https://github.com/power-assert-js/power-assert)
+> [power-assert](https://github.com/power-assert-js/power-assert) plugin for [Fly][fly].
+>
+[![][fly-badge]][fly] ![][mit-badge]
 
-## Install
+
+## Usage
+### Install
 
 ```
 npm install --save-dev fly-espower
 ```
 
-## Example
+### Example
 
 ```javascript
 exports.espower = function* () {
@@ -26,8 +34,14 @@ exports.test = function* () {
 
 To learn about what options are available, check out the [espower documentation](https://github.com/power-assert-js/espower#options)
 
-## License
+# License
 
-Licensed under the [MIT](http://twada.mit-license.org/) license.
+[MIT](http://opensource.org/licenses/MIT) © [Takuto Wada][author]
 
-[fly]: https://www.github.com/bucaran/fly
+
+[author]: https://github.com/twada
+
+[fly]: https://www.github.com/flyjs/fly
+
+[fly-badge]: https://img.shields.io/badge/fly-JS-05B3E1.svg?style=flat-square
+[mit-badge]: https://img.shields.io/badge/license-MIT-444444.svg?style=flat-square
